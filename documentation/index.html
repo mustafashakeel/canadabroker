@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+	<title>Blat. Documentation</title>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS -->
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	
+	<link href='http://fonts.googleapis.com/css?family=Enriqueta:400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Enriqueta:400,700|Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
+
+	<!-- jQuery -->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+
+	<script>
+		
+	/* Accordion */
+	
+	  $(function() {
+	    var icons = {
+	      header: "ui-icon-circle-arrow-e",
+	      activeHeader: "ui-icon-circle-arrow-s"
+	    };
+	    $( "#accordion" ).accordion({
+	      icons: icons
+	    });
+	    $( "#toggle" ).button().click(function() {
+	      if ( $( "#accordion" ).accordion( "option", "icons" ) ) {
+	        $( "#accordion" ).accordion( "option", "icons", null );
+	      } else {
+	        $( "#accordion" ).accordion( "option", "icons", icons );
+	      }
+	    });
+	  });
+	  
+	/* Tabs */
+	
+	  $(function() {
+	    $( "#tabs" ).tabs();
+	  });
+	</script>
+			
+</head>
+
+<body>
+
+	<!-- Header -->
+		
+	<header>			
+			<h1>Blat. Documentation</h1>
+	</header>
+	<!-- Header -->
+	
+			<ul id="menu">
+				<li><a href="#menu-item-1" title="Next Section">Features</a></li>
+				<li><a href="#menu-item-2" title="Next Section">Installation</a></li>
+				<li><a href="#menu-item-3" title="Next Section">Basic configuration</a></li>
+				<li><a href="#menu-item-4" title="Next Section">Customize your content</a></li>
+				<li><a href="#menu-item-5" title="Next Section">Add more elements in your content</a></li>
+			</ul>
+	
+		<div class="wrapper">
+		
+			<div class="content">
+
+				<h2>Blat, a Powerful and Responsive Restaurant Landing Page</h2>
+				
+				<p>Thank you to purchase Blat. This documentation wants to be a guide to be made full use of template.</p>
+				<h3 id="menu-item-1">Features</h3>
+				
+				<p>Blat is a Restaurant Landing Page fully Responsive and Super Easy to configure and customize. Contains a working Booking Form and two Inner Page templates.</p>
+				
+<img src="http://mildthemes.com/themes/themeforest/blat-responsive.png" alt="Fully Responsive" />
+<br /><br />
+<img src="http://mildthemes.com/themes/themeforest/blat-multipurpose.png" alt="Multipurpose header" />
+<br /><br />
+<img src="http://mildthemes.com/themes/themeforest/blat-configuration.png" alt="Super easy configuration" />
+<br /><br />
+<img src="http://mildthemes.com/themes/themeforest/blat-form.png" alt="Working Booking Form" />
+<br /><br />
+
+
+				<h3>All Features</h3>
+				
+				<ul>
+					<li>Fully Responsive</li>
+					<li>Super easy to configure</li>
+					<li>Three color schemes avaliables</li>
+					<li>Working Booking Form with AJAX</li>
+					<li>Single Page Template included</li>
+					<li>Styled Google Maps</li>
+					<li>Menu Card Page included</li>
+					<li>Subscription form with Mailchimp Integration</li>
+					<li>Working Contact Form with AJAX</li>
+					<li>Image Slideshow</li>
+					<li>Nice animations</li>
+					<li>Smooth scroll</li>
+					<li>Content Lightbox</li>
+					<li>Parallax effect</li>
+					<li>Testimonials Slideshow</li>
+					<li>Styled accordions, tabs and tables</li>
+					<li>Well commented</li>
+				</ul>
+				
+				<h3>Credits</h3>
+				<ul>
+					<li>Images included are by <a href="http://lauraagusti.com/">Laura Agustí</a></li>
+					<li>People images are not included in template. Are by <a href="http://photodune.net/user/SimpleFoto">SimpleFoto</a> in <a href="http://photodune.net/">Photodune</a></li>
+					<li>Colorbox script by <a href="http://www.jacklmoore.com/colorbox/">Jack Moore</a></li>
+					<li>Flex Slider by <a href="http://www.woothemes.com/flexslider/">Woo Themes</a></li>
+				</ul>
+												
+				<h3 id="menu-item-2">Installation</h3>
+				
+				<p>To view the template correctly in your browser when you are working locally, you must have to a Local Server application like <a href="http://sourceforge.net/projects/xampp/">XAMPP</a>, or their respective versions for Windows (WAMP) and Mac(MAMP). This is because this template uses PHP, and this language need be executed by a server.</p>
+				
+				<p>If you are working via cloud Hosting server, you shouldn't have any problem to view the template when you hosted it.</p>
+
+				<h3 id="menu-item-3">Basic configuration</h3>
+
+				<p>Blat is amazing! Is super easy to customize. In two minutes, you be made the basic configuration to start to enjoy the template.</p>
+				
+				<p>Open in your code editor the <strong>"config.php"</strong> file, and simply follow the comments.</p>
+				<p>In this file you will can configure:<p>
+				<ul>
+					<li>The title of your website</li>
+					<li>The color scheme: Colors avaliables: red, gold and dark</li>
+					<li>Your favicon</li>
+					<li>Your logo</li>
+					<li>The email what you use to receive the forms messages</li>
+					<li>The Mailchimp action url</li>
+					<li>The coordinates where will be placed the event. (<a href="http://gps.momosanchez.com/index.html">This tool can help you</a>)</li>
+					<li>The color for your map</li>
+					<li>The Google Webfonts you will use</li>
+					<li>The Google Analytics tracking code</li>
+					<li>Add the Parallax Effect on any class of your website</li>
+				</ul>
+
+				
+				<p>Wow! Its super easy!</p>
+
+				<h3 id="menu-item-4">Customize your content</h3>
+
+				<p>When you have done the basic configuration, you already can customize the content for your Landing Page.</p>
+				<p>You have three templates, all customizables: the index (index.php), the menu card page (menu.php), and another single page (single.php).</p>
+				
+				<strong>Customize the Menu: </strong><p>You can personalize the menu with your items. The ID assigned in the url items allow to situate the section directly instead of scrolling down. It's important type the same items in Responsive Menu, so this menu will appear in screens to less than 780px of width.</p>
+				<strong>Image Slideshow: </strong><p>Add more slides adding more list items ("li"), or remove the slideshow to show a more clean and flat style for header of your Landing Page.</p>
+				<strong>Change images and add your text: </strong><p>Are avaliable to you "blockquote" tag and a ".important" class to hightlight a text. Images uploaded will adapt its size to show in webpae correctly. </p>
+				<strong>Add, move, style or remove blocks: </strong><p>8 different blocks are avaliables to you (one-column, two-columns, three-columns, four-columns, left-quote, right-quote, testimonials and restaurant_booking). </p>
+				<ul>
+					<li><strong>Colored:</strong> Add in any of these blocks the class "colored" to add a default colored background color.</li>
+					<li><strong>Red, gold, dark, green, grey and blue:</strong> Add in any of these blocks the class "red", "gold", "dark", "green", "grey" or "blue" to add this background color in your block.</li>
+					<li><strong>Background image:</strong> Add in any of these blocks the class "background" to add any background image in your block (customize this image in CSS).</li>
+					<li><strong>Pattern:</strong> Add in any of these blocks the class "pattern" to add a pattern as background image in your block (customize this pattern in CSS).</li>
+					<li><strong>Animations:</strong> Add in any of these blocks the class "slide-down", "slide-left", "slide-right" to add a nice animation effect in your block.</li>
+				</ul>
+				<strong>Testimonials slideshow: </strong><p>Add more slides adding more list items ("li").</p>
+
+				<h3 id="menu-item-5">Add more elements in your content</h3>
+				
+				<p>You can use the following codes to add styled tabs, accordions, tables and buttons.</p>
+
+				<br /><br />
+
+				<p><strong>Tabs</strong></p>
+				<!-- tabs -->
+					<div id="tabs">
+					  <ul>
+					    <li><a href="#tabs-1">Nunc tincidunt</a></li>
+					    <li><a href="#tabs-2">Proin dolor</a></li>
+					    <li><a href="#tabs-3">Aenean lacinia</a></li>
+					  </ul>
+					  <div id="tabs-1">
+					    <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+					  </div>
+					  <div id="tabs-2">
+					    <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+					  </div>
+					  <div id="tabs-3">
+					    <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+					    <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+					  </div>
+					</div>
+				<!-- tabs -->
+
+				<pre>
+&lt;div id=&quot;tabs&quot;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&quot;#tabs-1&quot;&gt;Nunc tincidunt&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#tabs-2&quot;&gt;Proin dolor&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;#tabs-3&quot;&gt;Aenean lacinia&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;div id=&quot;tabs-1&quot;&gt;
+    &lt;p&gt;Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div id=&quot;tabs-2&quot;&gt;
+    &lt;p&gt;Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;div id=&quot;tabs-3&quot;&gt;
+    &lt;p&gt;Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.&lt;/p&gt;
+    &lt;p&gt;Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+				</pre>
+
+				<br /><br />
+
+				<p><strong>Accordion</strong></p>
+				<!-- accordion -->
+					<div id="accordion">
+					
+						<h3>Section 1</h3>
+						<div>
+						  <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
+						</div>
+						
+					  	<h3>Section 2</h3>
+						<div>
+						  <p>Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In suscipit faucibus urna. </p>
+						</div>
+						
+					  	<h3>Section 3</h3>
+						<div>
+						  <p>Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis. Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui. </p>
+							<ul>
+								<li>List item one</li>
+								<li>List item two</li>
+								<li>List item three</li>
+							</ul>
+						</div>
+						
+					  	<h3>Section 4</h3>
+						<div>
+						  <p>Cras dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia mauris vel est. </p><p>Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+						</div>
+						
+					</div>
+				<!-- accordion -->
+
+<pre>
+&lt;div id=&quot;accordion&quot;&gt;
+
+	&lt;h3&gt;Section 1&lt;/h3&gt;
+	&lt;div&gt;
+	  &lt;p&gt;Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.&lt;/p&gt;
+	&lt;/div&gt;
+	
+  	&lt;h3&gt;Section 2&lt;/h3&gt;
+	&lt;div&gt;
+	  &lt;p&gt;Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In suscipit faucibus urna. &lt;/p&gt;
+	&lt;/div&gt;
+	
+  	&lt;h3&gt;Section 3&lt;/h3&gt;
+	&lt;div&gt;
+	  &lt;p&gt;Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis. Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui. &lt;/p&gt;
+		&lt;ul&gt;
+			&lt;li&gt;List item one&lt;/li&gt;
+			&lt;li&gt;List item two&lt;/li&gt;
+			&lt;li&gt;List item three&lt;/li&gt;
+		&lt;/ul&gt;
+	&lt;/div&gt;
+	
+  	&lt;h3&gt;Section 4&lt;/h3&gt;
+	&lt;div&gt;
+	  &lt;p&gt;Cras dictum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia mauris vel est. &lt;/p&gt;&lt;p&gt;Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. &lt;/p&gt;
+	&lt;/div&gt;
+	
+&lt;/div&gt;
+</pre>
+
+				<br /><br />
+
+				<p><strong>Table</strong></p>
+				<!-- table -->
+					<table>
+						<caption>A Simple table</caption>
+						<tr>
+							<th scope="col">Col a</th>
+							<th scope="col">Col b</th>
+							<th scope="col">Col c</th>
+							<th scope="col">Col d</th>
+						</tr>
+						<tr>
+							<th scope="row">Row 1</th>
+							<td>Cell b1</td>
+							<td>Cell c1</td>
+							<td>Cell d1</td>
+						</tr>
+						<tr>
+							<th scope="row">Row 2</th>
+							<td>Cell b2</td>
+							<td>Cell c2</td>
+							<td>Cell d2</td>
+						</tr>
+						<tr>
+							<th scope="row">Row 3</th>
+							<td>Cell b3</td>
+							<td>Cell c3</td>
+							<td>Cell d3</td>
+						</tr>
+					</table>
+				<!-- table -->
+
+<pre>
+&lt;table&gt;
+	&lt;caption&gt;A Simple table&lt;/caption&gt;
+	&lt;tr&gt;
+		&lt;th scope=&quot;col&quot;&gt;Col a&lt;/th&gt;
+		&lt;th scope=&quot;col&quot;&gt;Col b&lt;/th&gt;
+		&lt;th scope=&quot;col&quot;&gt;Col c&lt;/th&gt;
+		&lt;th scope=&quot;col&quot;&gt;Col d&lt;/th&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;th scope=&quot;row&quot;&gt;Row 1&lt;/th&gt;
+		&lt;td&gt;Cell b1&lt;/td&gt;
+		&lt;td&gt;Cell c1&lt;/td&gt;
+		&lt;td&gt;Cell d1&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;th scope=&quot;row&quot;&gt;Row 2&lt;/th&gt;
+		&lt;td&gt;Cell b2&lt;/td&gt;
+		&lt;td&gt;Cell c2&lt;/td&gt;
+		&lt;td&gt;Cell d2&lt;/td&gt;
+	&lt;/tr&gt;
+	&lt;tr&gt;
+		&lt;th scope=&quot;row&quot;&gt;Row 3&lt;/th&gt;
+		&lt;td&gt;Cell b3&lt;/td&gt;
+		&lt;td&gt;Cell c3&lt;/td&gt;
+		&lt;td&gt;Cell d3&lt;/td&gt;
+	&lt;/tr&gt;
+&lt;/table&gt;
+</pre>
+
+				<br /><br />
+
+				<p><strong>Buttons</strong></p>
+
+				<div class="button red">Red button</div>
+				<div class="button gold">Gold button</div>
+				<div class="button green">Green button</div>
+				<div class="button blue">Blue button</div>
+				<div class="button grey">Grey button</div>
+				<div class="button white">White button</div>
+				<div class="button dark">Dark button</div>
+				
+				<div class="clear"></div>
+
+<pre>
+&lt;div class=&quot;button red&quot;&gt;Red button&lt;/div&gt;
+&lt;div class=&quot;button gold&quot;&gt;Gold button&lt;/div&gt;
+&lt;div class=&quot;button green&quot;&gt;Green button&lt;/div&gt;
+&lt;div class=&quot;button blue&quot;&gt;Blue button&lt;/div&gt;
+&lt;div class=&quot;button grey&quot;&gt;Grey button&lt;/div&gt;
+&lt;div class=&quot;button white&quot;&gt;White button&lt;/div&gt;
+&lt;div class=&quot;button dark&quot;&gt;Dark button&lt;/div&gt;
+</pre>
+
+				<br /><br />
+							
+				
+				<h3>That's all. If you have any issue or question that this documentation does not cover, you can contact us via email <strong>mildthemes@sincerament.com</strong> and we add the answer in the documentation as soon as be possible.</h3>
+				
+				
+			</div>
+		</div>
+
+</body>
+</html>

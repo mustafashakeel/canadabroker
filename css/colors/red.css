@@ -1,0 +1,101 @@
+header {
+	border-bottom: 1px solid transparent;
+}
+
+.restaurant_booking {
+	background-color: #D56352;
+}
+
+.colored {
+	background-color: #CA4C39;
+	border-bottom: 1px solid transparent;
+	color: #F2F2F2;
+}
+
+.background {
+	background: url('../../images/flowers.jpg') no-repeat fixed;
+	background-size: cover;
+}
+
+.colored h2, .colored h3, .colored p {
+	color: #F2F2F2;
+}
+
+#menu li a {
+	color: #FFFFFF;
+}
+
+#menu li:hover {
+	border-bottom: 3px solid #FFFFFF;
+}
+
+.button {
+	background-color: #CA4C39;
+}
+
+.modern-white {
+	background-color: rgba(202, 76, 57, 0.5);
+}
+
+h3, .price {
+	color: #CA4C39;
+}
+
+#accordion h3 {
+	background-color: #DD5642;
+}
+
+a {
+	color: #CA4C39;
+}
+
+caption {
+	background-color: #CA4C39;
+}
+
+tr th, thead th {
+	background-color: #FFD8D2;
+}
+
+#tabs ul li {
+	background-color:#DA998F;
+}
+
+.ui-tabs-active, .ui-state-active {
+	background-color:#CA4C39 !important;
+}
+
+.pricing {
+	background-color: #DD5642;
+	color: #F2F2F2;
+}
+
+.pricing h3 {
+	color: #F2F2F2;
+}
+
+ul.pricing-details li:nth-child(odd) {
+	background-color: #CA4C39;
+}
+
+.pricing .button, .pricing .button a {
+	color: #CA4C39;
+}
+
+.button:hover {
+	color:white;
+	background-color: #AD3A29 !important;
+}
+
+.expired, .important {
+	background-color:#AD3A29;
+	color:white !important;
+}
+
+.pattern, .sponsors {
+	background-color:#AD3A29;
+}
+
+.contact_event {
+	border: 8px solid #AD3A29;
+}

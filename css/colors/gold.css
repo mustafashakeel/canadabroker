@@ -1,0 +1,88 @@
+header {
+	border-bottom: 1px solid transparent;
+}
+
+.restaurant_booking {
+	background-color: #C0B350;
+}
+
+.colored {
+	background-color: #AEA237;
+	border-bottom: 1px solid transparent;
+	color: #F2F2F2;
+}
+
+.background {
+	background: url('../../images/wheat.jpg') no-repeat fixed;
+	background-size: cover;
+}
+
+.colored h2, .colored h3, .colored p {
+	color: #F2F2F2;
+}
+
+#menu li a {
+	color: #FFFFFF;
+}
+
+#menu li:hover {
+	border-bottom: 3px solid #FFFFFF;
+}
+
+.button {
+	background-color: #AEA237;
+}
+
+.modern-white {
+	background-color: rgba(174, 162, 55, 0.5);
+}
+
+h3, .price {
+	color: #AEA237;
+}
+
+#accordion h3 {
+	background-color: #B4A948;
+}
+
+a {
+	color: #AEA237;
+}
+
+caption {
+	background-color: #AEA237;
+}
+
+tr th, thead th {
+	background-color: #F3EDB2;
+}
+
+#tabs ul li {
+	background-color:#CFC98A;
+}
+
+.ui-tabs-active, .ui-state-active {
+	background-color:#AEA237 !important;
+}
+
+ul.pricing-details li:nth-child(odd) {
+	background-color: #AEA237;
+}
+
+.button:hover {
+	color:white;
+	background-color: #968B2D !important;
+}
+
+.expired, .important {
+	background-color:#968B2D;
+	color:white !important;
+}
+
+.pattern, .sponsors {
+	background-color:#968B2D;
+}
+
+.contact_event {
+	border: 8px solid #968B2D;
+}

@@ -1,0 +1,220 @@
+@media (min-width: 768px) and (max-width: 959px) {
+	
+	.wrapper {
+		width:728px;
+	}
+	
+	.right-column, .left-column {
+		width:50%;
+	}
+	
+	.product {
+		width: 65%;
+	}
+
+}
+
+@media screen and (max-width: 767px) {
+
+	h1 {
+		font-size: 28px;
+	}
+	
+	.wrapper {
+		max-width:700px;
+		width:90%;
+		padding: 0 2%;
+	}
+	
+	.modern-white {
+		margin: 100px 0 0;
+	}
+	
+	.left-column, .right-column {
+		width:100%;
+		float:none;
+		clear: both;
+	}
+	
+	.right-column p, .left-column p {
+		text-align:center;
+	}
+	
+	#responsive-menu, .responsive-menu {
+		display: block;
+	}
+	
+	#menu {
+		display: none;
+	}
+		
+
+	#ui-datepicker-div {
+		top: 200px !important;
+		left:-50px !important;
+	}
+	
+	ul.rslides li img {
+		height:120%;
+		width:auto;
+	}
+	
+	.restaurant_booking .one-column {
+		padding: 0px 0;
+		
+	}
+	
+	.restaurant_booking {
+		height: 625px;
+	}
+	
+	.booking {
+		margin:30px auto 0;
+		float:none;
+	}
+	
+	.product {
+		width: 65%;
+		float: left;
+	}
+	
+	.product p {
+		text-align: left;
+	}
+	
+	.left-quote h2, .left-quote .left-column ul li {
+		text-align: center;
+	}
+		
+	.right-quote .left-column, .left-quote .right-column {
+		width:100%;
+	}
+	
+	.right-quote .right-column, .left-quote .left-column {
+		width:70%;
+		margin:20px auto;
+		float:none;
+		clear:both;
+	}
+	
+	.two-columns .left-column, .two-columns .right-column {
+		width:100%;
+		float:none;
+	}
+	
+	.two-columns .left-column h3, .two-columns .left-column p, .two-columns .right-column h3, .two-columns .right-column p {
+		text-align: center;
+	}
+	
+	.three-columns .left-column, .three-columns .middle-column, .three-columns .right-column {
+		width:100%;
+		margin:0 0;
+	}
+	
+	form input[type="text"], form textarea[type="text"] {
+		display: block;
+		margin: 15px auto 0;
+		text-align: center;
+	}
+	
+	.two-columns form .button {
+		float: none;
+	}
+	
+	form#booking input#phone_booking, form#booking input#calendar_booking, form#booking input#hour_booking, form#booking input#guests_booking {
+		width: 95%;
+		margin: 15px 0 0;
+	}
+	
+	.four-columns .column {
+		width: 100%;
+	}
+
+	form#contact textarea {
+		display: block;
+		margin: 15px auto 0;
+		text-align: center;
+	}
+
+}
+
+@media screen and (max-width: 420px) {
+	
+	table, tbody, tfoot, thead, tr, th, td {
+		background: transparent;
+		border: 0;
+		margin: 0;
+		padding: 10px 0px;
+	}
+	
+	.modern-white {
+		margin: 50px 0 0;
+	}
+	
+	.thumbnail {
+		width: 95%;
+	}
+	
+	.product {
+		width: 100%;
+	}
+	
+	form#subscribe input[type="text"], form#subscribe input[type="submit"] {
+		float: none;
+		margin-left: auto;
+	}
+	
+	
+}
+
+@media only screen 
+ and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+.background {
+		background-attachment: scroll !important;
+		background-position: center top !important;
+	}
+
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+.background {
+		background-attachment: scroll !important;
+		background-position: center top !important;
+	}
+	
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+
+.background {
+		background-attachment: scroll !important;
+		background-position: center top !important;
+	}
+
+}
+
+
+
+/* Conditional CSS Firefox */
+
+@-moz-document url-prefix(){
+	.wrapper {
+		max-width: 900px !important;	
+	}
+
+	
+	@media (min-width: 768px) and (max-width: 959px) {
+
+		.wrapper {
+			max-width: 708px !important;	
+		}
+		
+	}
+}

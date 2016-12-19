@@ -1,0 +1,101 @@
+header {
+	border-bottom: 1px solid transparent;
+}
+
+.restaurant_booking {
+	background-color: #242424;
+}
+
+.colored {
+	background-color: #181818;
+	border-bottom: 1px solid transparent;
+	color: #F2F2F2;
+}
+
+.background {
+	background: url('../../images/shoes.jpg') no-repeat fixed;
+	background-size: cover;
+}
+
+.colored h2, .colored h3, .colored p {
+	color: #F2F2F2;
+}
+
+#menu li a {
+	color: #FFFFFF;
+}
+
+#menu li:hover {
+	border-bottom: 3px solid #FFFFFF;
+}
+
+.button {
+	background-color: #181818;
+}
+
+.modern-white {
+	background-color: rgba(24, 24, 24, 0.5);
+}
+
+h3, .price {
+	color: #1C1C1C;
+}
+
+#accordion h3 {
+	background-color: #1C1C1C;
+}
+
+a {
+	color: #181818;
+}
+
+caption {
+	background-color: #181818;
+}
+
+tr th, thead th {
+	background-color: #C5C5C5;
+}
+
+#tabs ul li {
+	background-color:#C5C5C5;
+}
+
+.ui-tabs-active, .ui-state-active {
+	background-color:#181818 !important;
+}
+
+.pricing {
+	background-color: #1C1C1C;
+	color: #F2F2F2;
+}
+
+.pricing h3 {
+	color: #F2F2F2;
+}
+
+ul.pricing-details li:nth-child(odd) {
+	background-color: #181818;
+}
+
+.pricing .button, .pricing .button a {
+	color: #1C1C1C;
+}
+
+.button:hover {
+	color:white;
+	background-color: #0F0F0F !important;
+}
+
+.expired, .important {
+	background-color:#0F0F0F;
+	color:white !important;
+}
+
+.pattern, .sponsors {
+	background-color:#0F0F0F;
+}
+
+.contact_event {
+	border: 8px solid #0F0F0F;
+}
